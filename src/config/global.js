@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Sistemas de producción',
     descripcionCurso:
-      'En este componente se aborda los sistemas de producción del proceso de confección de prendas de vestir, permitiendo contextualizar al aprendiz en el proceso productivo de la supervisión de procesos de confección.<br/><br/>Se realiza un recorrido de terminología, conceptos, definiciones de los sistemas de producción y su enfoque en la cadena productiva de la confección industrial de prendas de vestir, para fortalecer el nivel competitivo de las empresas del sector.',
+      'Este componente aborda los sistemas de producción del proceso de confección de prendas de vestir, contextualiza al aprendiz en el proceso productivo de supervisión de los procesos de confección.<br/><br/>Se identifica terminología, conceptos y definiciones de los sistemas de producción, asi como su enfoque en la cadena productiva de la confección industrial de prendas de vestir, para fortalecer el nivel competitivo de las empresas del sector.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -310,7 +310,7 @@ export default {
     {
       termino: 'Sistemas de producción intermitente',
       significado:
-        'los procesos de transformación de este tipo se suceden a intervalos irregulares y sin continuidad de flujo. Los productos son fabricados con base a los pedidos del cliente y, por eso, los bienes se producen en pequeña escala. En este sistema, se producen grandes variedades de productos en los que tamaño, diseño y otras características intrínsecas al bien pueden variar, por lo que la flexibilidad es una de las principales características que las diferencias de los tipos de sistemas de producción continua.',
+        'los procesos de transformación de este tipo se suceden a intervalos irregulares y sin continuidad de flujo. Los productos son fabricados con base a los pedidos del cliente, y por eso, los bienes se producen en pequeña escala. En este sistema, se producen grandes variedades de productos en los que tamaño, diseño y otras características intrínsecas al bien pueden variar, por lo que la flexibilidad es una de las principales características que las diferencias de los tipos de sistemas de producción continua.',
     },
     {
       termino: 'Tiempo de producción',
@@ -373,6 +373,35 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Parra Carrillo',
+        cargo: 'Instructor técnico ',
+        centro:
+          'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
+      },
+      {
+        nombre: 'Fernelis Mauricio Echeverri',
+        cargo: 'Instructor técnico',
+        centro:
+          'Regional Antioquia – Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Erika Alexandra Blanco Sánchez',
+        cargo: 'Experto técnico',
+        centro:
+          'Regional Antioquia – Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Maria Camila Alvarez Trujillo',
+        cargo: 'Contratista Diseño Curricular',
+        centro:
+          'Regional Antioquia – Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Diana Marcela Luis Vásquez',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Regional Distrito Capital-Centro de Gestión Industrial ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -399,13 +428,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

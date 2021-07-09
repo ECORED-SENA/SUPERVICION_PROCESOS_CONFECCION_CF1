@@ -22,18 +22,21 @@
     .row.justify-content-center.align-items-stretch
       .col-lg-4.bloque-texto-c.color-acento-contenido.p-4.mt-5
           i.fas.fa-quote-right
-          h2.mb-2 La producción se define como un componente importante de la empresa al desarrollar o fabricar un bien intangible. 
+          h5.mb-2 La producción se define como un componente importante de la empresa al desarrollar o fabricar un bien intangible. 
           span - Tawfik (1987).
+          i.fas.fa-quote-right.quite-pa
 
       .col-lg-4.bloque-texto-c.color-acento-contenido.p-4.mt-5
           i.fas.fa-quote-right
-          h2.mb-2 La define como un hecho realizado con la intención de transformar diversos elementos para generar un bien tangible e intangible que satisfaga una necesidad humana. 
+          h5.mb-2 La define como un hecho realizado con la intención de transformar diversos elementos para generar un bien tangible e intangible que satisfaga una necesidad humana. 
           span Everett E. (1991).
+          i.fas.fa-quote-right.quite-pa
+
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         .BorTit Figura 1. Producción.
         img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img2.svg', alt='')  
-    .h4.my-5 Producción: Concepto y terminología
+    .h4.my-5 Función de la producción
     .row.justify-content-center.align-items-stretch.mt-5
       .col-lg-7.bg-color-1.p-4
         p La función de la producción consta de tres sectores que se interrelacionan entre sí y son complemento el uno del otro. El sector primario conocido como la industria extractiva está integrado por el agro, la minería, entre otros, los cuales son insumos para el segundo sector, es decir, el manufacturero que se define como el que transforma los productos de la extractiva en productos de consumo para las necesidades de los clientes y a su vez, son el insumo de la terciaria que se enfoca a los servicios. (Tawfik, 1987).

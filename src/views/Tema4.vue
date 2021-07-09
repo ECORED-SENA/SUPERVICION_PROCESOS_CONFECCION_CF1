@@ -17,7 +17,7 @@
     .titulo-segundo#t_4_1
       .h4 4.1  Sistema de producción lineal        
 
-    .tarjeta.tarjeta--azul.p-3
+    .tarjeta.tarjeta--azul-1.p-3
       SlyderA
         .row.justify-content-center.align-items-center
           .col-md-5.my-2.mb-md-0
@@ -63,8 +63,9 @@
     .row.justify-content-center.align-items-stretch.mt-5
       .col-12.bloque-texto-c.color-acento-contenido.p-4
           i.fas.fa-quote-right
-          h2.mb-2 Dentro de los sistemas de producción por celdas, el trabajo en equipo es fundamental, donde se integran tanto máquinas como talento humano para llevar a cabo una serie de operaciones. Esta distribución facilita el desarrollo de las relaciones profesionales, poniendo a prueba la experticia de los operadores, lo que se traduce en una polivalencia. Este tipo de sistema reduce los periodos de trabajo en la fabricación y preparación, lo que optimiza la supervisión y facilita el control visual
+          h5.mb-2 Dentro de los sistemas de producción por celdas, el trabajo en equipo es fundamental, donde se integran tanto máquinas como talento humano para llevar a cabo una serie de operaciones. Esta distribución facilita el desarrollo de las relaciones profesionales, poniendo a prueba la experticia de los operadores, lo que se traduce en una polivalencia. Este tipo de sistema reduce los periodos de trabajo en la fabricación y preparación, lo que optimiza la supervisión y facilita el control visual
           span Sekine, 1993
+          i.fas.fa-quote-right.quite-pa
       
     p.mt-5 Para realizar una adecuada distribución en la generación de celdas se especifica tener en cuenta la selección de las familias de productos, definir las celdas y determinar su orden. Aunque se debe tener en cuenta que esta organización aumenta el tiempo de inactividad de las máquinas, puesto que éstas se enfocan en la celda y es muy probable que no se usen muy seguidos de manera ininterrumpida. 
 

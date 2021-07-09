@@ -12,8 +12,9 @@
     .row.justify-content-center.align-items-stretch.mt-5
       .col-8.bloque-texto-c.color-acento-contenido.p-4
           i.fas.fa-quote-right
-          h2.mb-2 Los modelos se estructuran según la realidad y la abstracción, y estos factores permiten desde un problema presentado en la realidad, permite que la abstracción simule por medio de una formulación la proyección de modelos que serán verificados en la realidad. 
+          h5.mb-2 Los modelos se estructuran según la realidad y la abstracción, y estos factores permiten desde un problema presentado en la realidad, permite que la abstracción simule por medio de una formulación la proyección de modelos que serán verificados en la realidad. 
           span NAHMIAS, 1999
+          i.fas.fa-quote-right.quite-pa
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
@@ -30,7 +31,7 @@
             i.fas.fa-quote-left
             h4.mb-4 A través del uso de modelos es como se identifican posibles soluciones, teniendo en cuenta la magnitud o dificultad de un determinado problema, por consiguiente, al definir en qué radica el dicho problema es cómo se reconocen los tipos de modelos que se ajustan mejor a la situación planteada
             span NAHMIAS, 1999
-            i.fas.fa-quote-right
+            i.fas.fa-quote-right.quite-pa
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10

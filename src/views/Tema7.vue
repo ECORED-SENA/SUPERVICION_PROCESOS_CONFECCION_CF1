@@ -35,9 +35,9 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
-        p Por otro lado, el manejo del riesgo es un proceso que está definido de manera secuencial, monitoreando el control de riesgo interno de los diversos cargos laborales de la organización. De esta forma, se ha diseñado diversas estrategias que proporcionan metodologías a procesos de trabajo, bien sea de procesos manufacturados como procesos de prestación de servicio, siempre en pro de evaluar las mejores prácticas de trabajo basados en la mejora continua.  
+        p Por otro lado, el manejo del riesgo es un proceso que está definido de manera secuencial, monitoreando el control de riesgo interno de los diversos cargos laborales de la organización. De esta forma, se han diseñado diversas estrategias que proporcionan metodologías a procesos de trabajo, bien sea de procesos manufacturados como procesos de prestación de servicio, siempre en pro de evaluar las mejores prácticas de trabajo basados en la mejora continua.  
         .row.cajon.color-secundario.p-4.mt-5
-          p.mb-0 En el desarrollo de este componente formativo se realizará una contextualización de los términos y conceptos de los sistemas de producción y su importancia para el desempeño del supervisor de procesos de confección de prendas de vestir. 
+          p.mb-0 La construcción de las herramientas de trabajo se plantea de acuerdo con las necesidades de los procesos y procedimientos en la capacidad intelectual del talento humano de las organizaciones, proyectando actividades, logros u objetivos; basados en la visión de la organización, se podrían definir los siguientes objetivos:
         ol.lista-ol--cuadro.mt-5
           li 
             .lista-ol--cuadro__vineta
@@ -73,8 +73,28 @@
 
     p.mt-5 Desarrollando la gestión de calidad en la salud y seguridad en el trabajo, se fundamenta desde la mejora continua planteando políticas organizacionales, enfocadas a la planeación organizacional, donde se desarrollan implementaciones de la aplicabilidad de los fundamentos inicialmente proyectados, para proceder a unas inspecciones y evaluaciones de cumplimiento e iniciar a controlar los puntos que se encuentran funcionando de manera óptima, sin descuidar los riesgos que afecten la seguridad y salud de las personas que conforman el equipo de trabajo.
 
-    p Se representan por las siguientes etapas:
-    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img27.svg', alt='')  
+    p.mb-5 Se representan por las siguientes etapas:
+    .row.justify-content-center.align-items-center
+      .col-lg-3.lg-mb-3
+        a.mt-5.indicador__container(@click="modal1 = true")
+          img.img-t.img-a(src='@/assets/ilustraciones/img27_3.svg', alt='')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-lg-3.lg-mb-3
+        a.mt-5.indicador__container(@click="modal2 = true")
+          img.img-t.img-a(src='@/assets/ilustraciones/img27_2.svg', alt='')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-lg-3.lg-mb-3
+        a.mt-5.indicador__container(@click="modal3 = true")
+          img.img-t.img-a(src='@/assets/ilustraciones/img27_1.svg', alt='')
+          .indicador--click(v-if="mostrarIndicador")  
+
+    ModalA(:abrir-modal.sync="modal1")
+      p.mb-0 Es todo evento no deseado o no esperado que ocasiona una pérdida.
+    ModalA(:abrir-modal.sync="modal2")
+      p.mb-0 Evento no deseado que da lugar a la muerte, enfermedad o lesión, bien sea del personal de trabajo o de los equipos e instalaciones de la empresa.
+    ModalA(:abrir-modal.sync="modal3")
+      p.mb-0 Es la fuente de causar una lesión, daño o enfermedad en el ambiente de trabajo. Los peligros suelen ser de dos tipos: físicos y químicos; donde los físicos son ruido, radiación, iluminación, temperaturas altas y vibraciones. Por otro lado, los peligros químicos son sustancias tóxicas, polución y material particulado.                       
+              
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-6
@@ -86,7 +106,7 @@
     .titulo-segundo#t_7_1
       .h4 7.1  Seguridad e higiene en la industria
 
-    p La seguridad e higiene en la industria se refiere a las actividades identificadas al seguimiento y control de los factores que representan un riesgo y alteran la salud del equipo de trabajo de la organización empresarial, que puedan verse representadas en enfermedades profesionales o accidentes de trabajo. Esto se da al plantear puntos críticos de riesgo de acuerdo con las maquinas utilizadas o trabajos en alturas o al definir líneas de factores de riesgo para mantener una monitorización.
+    p La seguridad e higiene en la industria se refiere a las actividades identificadas en el seguimiento y control de los factores que representan un riesgo y alteran la salud del equipo de trabajo de la organización empresarial, que puedan verse representadas en enfermedades profesionales o accidentes de trabajo. Esto se da al plantear puntos críticos de riesgo de acuerdo con las máquinas utilizadas o trabajos en alturas o al definir líneas de factores de riesgo para mantener una monitorización.
 
     p Para conocer la seguridad e higiene en la industria es importante identificar los siguientes elementos:
 
@@ -99,7 +119,7 @@
           .col-md-7.mb-4.mb-md-0
             p #[b Medicina preventiva y del trabajo]
 
-            p actividades fundamentadas a la calidad y seguridad de la vida de los empleados a través de mantenimientos predictivos, preventivos y correctivos de los equipos que se encuentren dentro de los activos de la empresa.
+            p Actividades fundamentadas en la calidad y seguridad de la vida de los empleados a través de mantenimientos predictivos, preventivos y correctivos de los equipos que se encuentren dentro de los activos de la empresa.
 
             p Se genera una relación entre equipos y maquinaria, donde se generan informes de salud y seguridad de los empleados que manipulan dichas maquinarias optimizando los recursos de las empresas, pero también en el autocuidado del personal operativo.
     
@@ -333,7 +353,10 @@
 export default {
   name: 'Tema7',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
+    modal3: false,
   }),
 }
 </script>

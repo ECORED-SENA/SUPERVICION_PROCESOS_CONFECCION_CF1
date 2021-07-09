@@ -49,7 +49,64 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         .BorTit Figura 10. Hoja de Ruta. Fuente: SENA 2021, Fernellis Mauricio Echeverry.
-        img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img23.svg', alt='')  
+        .tabla-b.mt-4
+          .tabla-b__header.bg-table
+            h5.mb-0.text-color Niveles del lenguaje
+          table
+
+            tr
+              th.text-center 
+                h4 Orden
+              th.text-center 
+                h4 Ruta
+              th.text-center 
+                h4 Días
+            tr
+              th.text-center 1
+              th Diseño 
+              th.text-center 1
+            tr
+              th.text-center 2 
+              th Patronaje
+              th.text-center 1
+            tr
+              th.text-center 3 
+              th Tiempos de reposo para las telas 
+              th.text-center 2
+            tr
+              th.text-center 4 
+              th Extendido de la tela
+              th.text-center 1
+            tr
+              th.text-center 5
+              th Corte de la tela 
+              th.text-center 1
+            tr
+              th.text-center 6
+              th Tiqueteado de las piezas
+              th.text-center 1
+            tr
+              th.text-center 7
+              th Fusionado de entretelas
+              th.text-center 1
+            tr
+              th.text-center 8 
+              th Estampación
+              th.text-center 2
+            tr
+              th.text-center 9
+              th Confección
+              th.text-center 1
+            tr
+              th.text-center 10
+              th Terminación
+              th.text-center 1     
+            tr
+              th.text-center 
+              th 
+                h4 Total días
+              th.text-center 12                          
+
     p.my-5 A continuación, en el siguiente video a partir de las imágenes tomadas del sitio web Lafayette Sports, se observan los procesos de la empresa que intervienen en la construcción de una prenda de vestir, la cual hace parte del desarrollo del proceso productivo y también de la hoja de ruta. 
 
     figure
@@ -58,7 +115,8 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-6
-        a.anexo.mb-4.mb-lg-0(href="https://www.lafayettesports.com.co/noticias/confeccion-deportiva/como-lograr-colecciones-deportivas-a-traves-de-un-proceso-de-confeccion-efectivo/2/" target="_blank")
+        p Para abordar en profundidad la explicación de los procesos productivos de la empresa, visitar el portal web de Lafayette Sports.
+        a.anexo.mt-4.mb-lg-0(href="https://www.lafayettesports.com.co/noticias/confeccion-deportiva/como-lograr-colecciones-deportivas-a-traves-de-un-proceso-de-confeccion-efectivo/2/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -67,21 +125,24 @@
     Separador
 
     .titulo-segundo#t_6_2
-      .h4 6.2  Fichas Técnicas
-    p La Ficha Técnica es un documento indispensable para mejorar la comunicación de la organización y esto se debe a que en ella se encuentra toda la información de cada etapa por la cual deben pasar las prendas de vestir en el desarrollo del proceso productivo.
+      .h4 6.2  Fichas técnicas
+    p La Ficha técnica es un documento indispensable para mejorar la comunicación de la organización y esto se debe a que en ella se encuentra toda la información de cada etapa por la cual deben pasar las prendas de vestir en el desarrollo del proceso productivo.
 
     p La ficha cuenta con el orden específico en que se van realizando las prendas: diseño, patronaje, trazo, corte, tiqueteado, confección, y terminación. De esta forma, la ficha técnica es un elemento primordial para el departamento de diseño al informar de una manera estandarizada y sencilla las características técnicas de un producto a confeccionar, es de destacar que esta información tiene utilidad a nivel comercial y productivo.
 
     .row.justify-content-center.align-items-stretch.mt-5
       .col-lg-4.bloque-texto-c.color-acento-contenido.p-4
           i.fas.fa-quote-right
-          h2.mb-2 Es el documento que da facilidad y precisión en la en la producción de una prenda de vestir 
+          h5.mb-2 Es el documento que da facilidad y precisión en la producción de una prenda de vestir 
           span Pinilla (2006, p. 51).
+          i.fas.fa-quote-right.quite-pa
 
       .col-lg-8.bloque-texto-c.color-acento-contenido.p-4
           i.fas.fa-quote-right
-          h2.mb-2 “Es un documento escrito (Gráfico), en la cual se registran todas las características técnicas del producto prenda, es el documento que registra todos los procesos de fabricación considerando información relevante desde que nace el requerimiento del cliente (Spec) o idea propia, siguiendo por la fase de desarrollo, producción y despacho” 
-          span Huertas (2019, p. 54)        
+          h5.mb-2 “Es un documento escrito (Gráfico), en la cual se registran todas las características técnicas del producto prenda, es el documento que registra todos los procesos de fabricación considerando información relevante desde que nace el requerimiento del cliente (Spec) o idea propia, siguiendo por la fase de desarrollo, producción y despacho” 
+          span Huertas (2019, p. 54)
+          i.fas.fa-quote-right.quite-pa
+
 
     p Los componentes de una ficha técnica en el desarrollo del formato no son fijos y se definirán de acuerdo a las necesidades puntuales de cada empresa, sin embargo, todas las fichas tienen encabezado, en este apartado se encuentra información importante como: la descripción de la prenda, código del producto, diseñador, tipo de colección, fechas,  nombre de la colección, autor del diseño, descripción detallada del diseño, a quien va dirigido, material textil, colores del material textil, tallas a realizar, accesorios.
 
@@ -118,9 +179,18 @@
 
     .row.cajon.color-secundario.p-4.mt-5
       p.mb-0 De igual manera, en una empresa se puede realizar el consumo por prendas de insumos, materiales y los costos de la fabricación por prenda, también el consumo de material (Tela), sesgos e insumos, a través de tablas de Excel. De esta forma, se recuerda la empresa COATS CADENA que desde hace años facilita una plantilla en Excel y el software denominado SEAMWORKS para el correcto cálculo de hilo en la producción de prendas de vestir.
+      .row.justify-content-center.align-items-center
+        .col-lg-6
+          a.anexo.mt-4.mb-lg-0(href="https://www.youtube.com/watch?v=gZb3vgnGYk8" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p #[b Enlace web]. Explorar el tutorial del software SEAMWORKS.      
+    
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
         p.text-center Aprender a generar el consumo de sesgos tiene suma importancia para la fabricación de cualquier prenda de vestir y con el formato adecuado se minimiza el tiempo del cálculo, para ello se necesita:
@@ -153,7 +223,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
-        p.text-center Por último, para llegar al consumo por unidad se necesita número de unidades por retazo y este proceso genera metros que es el valor que se necesita en el consumo de sesgos. 
+        p.text-center Por último, para llegar al consumo por unidad se necesita número de unidades por retazo y este proceso genera metros, que es el valor que se necesita en el consumo de sesgos. 
 
         .row.justify-content-center.align-items-center.mt-5
           .col-lg-6
@@ -163,7 +233,7 @@
               .anexo__texto
                 p #[b Anexo]. Explorar el siguiente documento llamado “Formato de consumo de hilos”.    
           .col-lg-6
-            a.anexo(:href="obtenerLink('/downloads/2_FORMATO_DE_FICHA_TECNICA_EN_EXCEL.rtf')" target="_blank")
+            a.anexo(:href="obtenerLink('/downloads/4_FORMATOS_DE_CONSUMO_DE_SESGOS .xlsx')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-xls.svg")
               .anexo__texto
