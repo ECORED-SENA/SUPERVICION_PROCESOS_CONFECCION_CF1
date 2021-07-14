@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 1
-      h1 Sistemas de Producción  
+      h1.text-in Sistemas de Producción  
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-8
         p Para hablar de sistemas de producción es importante analizar los factores que integran todos los elementos para transformar la materia prima en productos terminados. Entre los factores que intervienen, se destaca el talento humano con los conocimientos adquiridos, el estilo de administración o gestión de los procesos, los procedimientos, el uso de herramientas como máquinas y materiales, además de las tecnologías.
@@ -16,7 +16,7 @@
         img.img-t.img-a(src='@/assets/ilustraciones/img1.png', alt='')   
 
     .titulo-segundo#t_1_1.mt-5
-      .h4 1.1  Producción: Concepto y terminología 
+      .h4.text-in 1.1  Producción: Concepto y terminología 
     
     p Para entender el significado de sistemas de producción primero se revisará el concepto de #[b “producción”]. 
     .row.justify-content-center.align-items-stretch
@@ -35,7 +35,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         .BorTit Figura 1. Producción.
-        img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img2.svg', alt='')  
+        img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img2.svg', alt='' data-aos="slide-left")  
     .h4.my-5 Función de la producción
     .row.justify-content-center.align-items-stretch.mt-5
       .col-lg-7.bg-color-1.p-4

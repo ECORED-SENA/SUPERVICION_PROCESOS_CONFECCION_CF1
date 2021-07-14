@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 2
-      h1 Estructura del Sistema de Producción
+      h1.text-in Estructura del Sistema de Producción
     .row.justify-content-center.align-items-stretch
       .col-12.bloque-texto-c.color-acento-contenido.p-4
           i.fas.fa-quote-right

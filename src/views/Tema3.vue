@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 3
-      h1 Modelos de Sistemas de Producción 
+      h1.text-in Modelos de Sistemas de Producción 
 
     p Antiguamente se desarrollaron actividades rudimentarias en materia de procesos de producción, pero a medida que el tiempo fue avanzando, los investigadores encontraron mejores formas de organizar los sistemas a medida que se tornaron más complicados. Para ello, se hizo uso de los pasos realizados por las ciencias físicas, al encontrar mayor organización y precisión. De esta manera, se ha evidenciado un gran avance desde la administración científica, hasta la que hoy se conoce como ciencia de la administración, caracterizada por una mayor planeación en la construcción, manejo e interpretación de modelos. (NAHMIAS, 1999).
 

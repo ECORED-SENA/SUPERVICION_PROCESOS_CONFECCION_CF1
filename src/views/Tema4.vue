@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 4
-      h1 Tipos de sistemas de producción para procesos de Confección
+      h1.text-in Tipos de sistemas de producción para procesos de Confección
 
     p Al entender qué son los sistemas de producción y todo lo que se ha hablado de ello, es importante identificar los tipos de sistemas de producción existentes teniendo en cuenta factores como los productos o la demanda de estos. De esta manera, se presentan los siguientes:
     .row.justify-content-center.align-items-center.mt-5
@@ -15,7 +15,7 @@
     Separador    
 
     .titulo-segundo#t_4_1
-      .h4 4.1  Sistema de producción lineal        
+      .h4.text-in 4.1  Sistema de producción lineal        
 
     .tarjeta.tarjeta--azul-1.p-3
       SlyderA

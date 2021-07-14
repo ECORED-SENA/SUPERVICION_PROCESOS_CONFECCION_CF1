@@ -100,3 +100,116 @@
 
 .tarjeta--azul
   background-color: #F6F6F6 !important  
+
+.text-in
+  -webkit-animation: text-in 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both
+  animation: text-in 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both
+
+@-webkit-keyframes text-in
+  0%
+    letter-spacing: -0.5em
+    opacity: 0
+
+  40%
+    opacity: 0.6
+
+  100%
+    opacity: 1
+
+@keyframes text-in
+  0%
+    letter-spacing: -0.5em
+    opacity: 0
+
+  40%
+    opacity: 0.6
+
+  100%
+    opacity: 1
+
+.yoyo
+  animation-name: yoyo
+  animation-duration: 2.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+
+@keyframes yoyo
+  0%
+    transform: translatey(0px)    
+  50%
+    transform: translatey(-10px)
+  100%
+    transform: translatey(0px)   
+
+.yoyo:hover
+  animation-duration: 0s
+
+.yoyo-1
+  animation-name: yoyo-1
+  animation-duration: 2.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+
+@keyframes yoyo-1
+  0%
+    transform: translatey(-10px)    
+  50%
+    transform: translatey(0px)
+  100%
+    transform: translatey(-10px) 
+
+.yoyo-1:hover
+  animation-duration: 0s
+
+.imagen
+  cursor: pointer
+.info
+  position: absolute
+  overflow: hidden
+  max-width: 292px
+  min-width: 200px
+  background-color: #DBFAFA
+  opacity: 0
+  transition: opacity .5s
+  padding: 1rem
+  border-radius: 0px 0px 15px 15px
+  border: 3px solid white
+  z-index: 4000
+
+.imagen:hover .info
+  opacity: 10
+
+.info-1
+  position: absolute
+  overflow: hidden
+  max-width: 292px
+  min-width: 200px
+  background-color: #FFE8DE
+  opacity: 0
+  transition: opacity .5s
+  padding: 1rem
+  border-radius: 0px 0px 15px 15px
+  border: 3px solid white
+  z-index: 4000
+
+.imagen:hover .info-1
+  opacity: 10
+
+.info-2
+  position: absolute
+  overflow: hidden
+  max-width: 292px
+  min-width: 200px
+  background-color: #FCE5E9
+  opacity: 0
+  transition: opacity .5s
+  padding: 1rem
+  border-radius: 0px 0px 15px 15px
+  border: 3px solid white
+  z-index: 4000
+
+.imagen:hover .info-2
+  opacity: 10
+

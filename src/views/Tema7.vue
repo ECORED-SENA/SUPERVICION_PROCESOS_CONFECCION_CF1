@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 7
-      h1 Sistemas de gestión de calidad
+      h1.text-in Sistemas de gestión de calidad
 
     p El sistema de gestión profundizado en la calidad plantea herramientas que permite a las organizaciones planear, implementar, controlar y realizar seguimientos a las actividades de la organización empresarial a través de estándares de calidad, lo cual dicha información proporciona desarrolla indicadores de alerta o normalidad de los procesos.
 
@@ -73,27 +73,25 @@
 
     p.mt-5 Desarrollando la gestión de calidad en la salud y seguridad en el trabajo, se fundamenta desde la mejora continua planteando políticas organizacionales, enfocadas a la planeación organizacional, donde se desarrollan implementaciones de la aplicabilidad de los fundamentos inicialmente proyectados, para proceder a unas inspecciones y evaluaciones de cumplimiento e iniciar a controlar los puntos que se encuentran funcionando de manera óptima, sin descuidar los riesgos que afecten la seguridad y salud de las personas que conforman el equipo de trabajo.
 
-    p.mb-5 Se representan por las siguientes etapas:
-    .row.justify-content-center.align-items-center
-      .col-lg-3.lg-mb-3
-        a.mt-5.indicador__container(@click="modal1 = true")
-          img.img-t.img-a(src='@/assets/ilustraciones/img27_3.svg', alt='')
-          .indicador--click(v-if="mostrarIndicador")  
-      .col-lg-3.lg-mb-3
-        a.mt-5.indicador__container(@click="modal2 = true")
-          img.img-t.img-a(src='@/assets/ilustraciones/img27_2.svg', alt='')
-          .indicador--click(v-if="mostrarIndicador")  
-      .col-lg-3.lg-mb-3
-        a.mt-5.indicador__container(@click="modal3 = true")
-          img.img-t.img-a(src='@/assets/ilustraciones/img27_1.svg', alt='')
-          .indicador--click(v-if="mostrarIndicador")  
 
-    ModalA(:abrir-modal.sync="modal1")
-      p.mb-0 Es todo evento no deseado o no esperado que ocasiona una pérdida.
-    ModalA(:abrir-modal.sync="modal2")
-      p.mb-0 Evento no deseado que da lugar a la muerte, enfermedad o lesión, bien sea del personal de trabajo o de los equipos e instalaciones de la empresa.
-    ModalA(:abrir-modal.sync="modal3")
-      p.mb-0 Es la fuente de causar una lesión, daño o enfermedad en el ambiente de trabajo. Los peligros suelen ser de dos tipos: físicos y químicos; donde los físicos son ruido, radiación, iluminación, temperaturas altas y vibraciones. Por otro lado, los peligros químicos son sustancias tóxicas, polución y material particulado.                       
+    p.mb-5 Se representan por las siguientes etapas:
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-lg-3        
+        .imagen.indicador__container
+          img.yoyo.img-t.img-a(src='@/assets/ilustraciones/img27_3.svg', alt='' @mouseover="mostrarIndicador = false")
+          .indicador--click(v-if="mostrarIndicador")           
+          .info
+            p.descripcion.p-3.mb-0 Es todo evento no deseado o no esperado que ocasiona una pérdida.
+      .col-lg-3        
+        .imagen
+          img.yoyo-1.img-t.img-a(src='@/assets/ilustraciones/img27_2.svg', alt='')
+          .info-1
+            p.descripcion.p-3.mb-0 Evento no deseado que da lugar a la muerte, enfermedad o lesión, bien sea del personal de trabajo o de los equipos e instalaciones de la empresa.
+      .col-lg-3        
+        .imagen
+          img.yoyo.img-t.img-a(src='@/assets/ilustraciones/img27_1.svg', alt='')
+          .info-2
+            p.descripcion.p-3.mb-0 Es la fuente de causar una lesión, daño o enfermedad en el ambiente de trabajo. Los peligros suelen ser de dos tipos: físicos y químicos; donde los físicos son ruido, radiación, iluminación, temperaturas altas y vibraciones. Por otro lado, los peligros químicos son sustancias tóxicas, polución y material particulado.                     
               
 
     .row.justify-content-center.align-items-center.mt-5

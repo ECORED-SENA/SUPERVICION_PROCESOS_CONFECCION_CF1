@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 6
-      h1 Ordenes de producción
+      h1.text-in Ordenes de producción
 
     .row.justify-content-center.align-items-center
       .col-lg-4
@@ -107,12 +107,6 @@
                 h4 Total días
               th.text-center 12                          
 
-    p.my-5 A continuación, en el siguiente video a partir de las imágenes tomadas del sitio web Lafayette Sports, se observan los procesos de la empresa que intervienen en la construcción de una prenda de vestir, la cual hace parte del desarrollo del proceso productivo y también de la hoja de ruta. 
-
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-6
         p Para abordar en profundidad la explicación de los procesos productivos de la empresa, visitar el portal web de Lafayette Sports.
@@ -187,10 +181,6 @@
             .anexo__texto
               p #[b Enlace web]. Explorar el tutorial del software SEAMWORKS.      
     
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
         p.text-center Aprender a generar el consumo de sesgos tiene suma importancia para la fabricación de cualquier prenda de vestir y con el formato adecuado se minimiza el tiempo del cálculo, para ello se necesita:

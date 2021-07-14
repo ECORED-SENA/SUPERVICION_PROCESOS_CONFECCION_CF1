@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span.numero 5
-      h1 Máquinas de producción
+      h1.text-in Máquinas de producción
 
     .row.justify-content-center.align-items-center
       .col-lg-10
