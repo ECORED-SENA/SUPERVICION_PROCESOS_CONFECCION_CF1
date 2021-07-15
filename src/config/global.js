@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Sistemas de producción',
     descripcionCurso:
       'Este componente aborda los sistemas de producción del proceso de confección de prendas de vestir, contextualiza al aprendiz en el proceso productivo de supervisión de los procesos de confección.<br/><br/>Se identifica terminología, conceptos y definiciones de los sistemas de producción, asi como su enfoque en la cadena productiva de la confección industrial de prendas de vestir, para fortalecer el nivel competitivo de las empresas del sector.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
